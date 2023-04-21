@@ -24,7 +24,7 @@ module.exports = {
     
     gnosis: {
       url: 'https://rpc.gnosischain.com/',
-      gasPrice: 1000000000,
+      gasPrice: 10000000000,
       accounts: [process.env.PRIVATE_KEY],
       
     },
