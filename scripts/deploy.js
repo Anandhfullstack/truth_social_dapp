@@ -40,11 +40,18 @@ const main = async () => {
   console.log("Deploying contracts with account: ", deployer.address);
   console.log("Account balance: ", accountBalance.toString());
 
-  const waveContractFactory = await hre.ethers.getContractFactory("WavePortal");
-  const waveContract = await waveContractFactory.deploy();
-  await waveContract.deployed();
+  // const waveContractFactory = await hre.ethers.getContractFactory("WavePortal");
+  // const waveContract = await waveContractFactory.deploy();
+  // await waveContract.deployed();
+
+//now I made this
+
+const PostContractFactory = await hre.ethers.getContractFactory("Posts");
+const postContract = await PostContractFactory.deploy();
+await postContract.deployed();
 
   console.log("WavePortal address: ", waveContract.address);
+  console.log("Post address: ", postContract.address);
 };
 
 const runMain = async () => {
