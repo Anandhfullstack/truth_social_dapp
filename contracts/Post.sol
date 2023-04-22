@@ -1,6 +1,6 @@
 pragma solidity ^0.8.9;
 
-contract SocialMedia {
+contract Posts {
     struct Post {
         uint256 postId;
         address author;
