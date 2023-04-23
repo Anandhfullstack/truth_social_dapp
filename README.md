@@ -1,3 +1,5 @@
+![alt text](https://github.com/Anandhfullstack/truth_social_dapp/blob/master/truth.png)
+
 # Truth Social Dapp
 
 ## **What is Truth Social Dapp**
