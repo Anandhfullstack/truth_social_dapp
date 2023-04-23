@@ -12,7 +12,7 @@ import cv2
 import pinecone
 
 app = Flask (__name__)
-pinecone.init(api_key="85607c65-715a-4e32-85c6-6a67bb3ce4ed", environment="us-west4-gcp")
+pinecone.init(api_key="API_Key", environment="your_environment")
 index = pinecone.Index("karunimg")
 
 @app.route ('/', methods = ['POST'])
